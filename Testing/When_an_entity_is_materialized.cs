@@ -15,5 +15,15 @@ namespace EFinContext.Testing
                 Assert.IsNotNull(firstContact.Context, "Context was null.");
             }
         }
+
+        [TestMethod]
+        public void non_context_entities_should_work_too()
+        {
+            using (var db = new AdventureWorksEntities())
+            {
+                var firstType = db.ContactTypes.First();
+                Assert.IsNotNull(firstType, "ContactType was null.");
+            }
+        }
     }
 }

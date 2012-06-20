@@ -12,7 +12,8 @@ namespace EFinContext
             (context as IObjectContextAdapter).ObjectContext.ObjectMaterialized +=
                 delegate(object sender, ObjectMaterializedEventArgs e)
                 {
-                    (e.Entity as IHasDbContext<T>).Context = context as T;
+                    if (e.Entity is IHasDbContext<T>)
+                        (e.Entity as IHasDbContext<T>).Context = context as T;
                 };
         }
     }

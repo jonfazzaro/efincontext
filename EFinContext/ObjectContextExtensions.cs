@@ -9,7 +9,8 @@ namespace EFinContext
         {
             context.ObjectMaterialized += 
                 delegate(object sender, ObjectMaterializedEventArgs e) {
-                    (e.Entity as IHasObjectContext<T>).Context = context as T;
+                    if (e.Entity is IHasObjectContext<T>)
+                        (e.Entity as IHasObjectContext<T>).Context = context as T;
                 };
         }
 
