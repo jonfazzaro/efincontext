@@ -1,0 +1,26 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2012
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EFinContext", "EFinContext\EFinContext.csproj", "{51E03E0F-6E5F-401C-9980-72D19ED17DAB}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Testing", "Testing\Testing.csproj", "{856D7163-C24D-4013-B31A-419BD87E040C}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{51E03E0F-6E5F-401C-9980-72D19ED17DAB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{51E03E0F-6E5F-401C-9980-72D19ED17DAB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{51E03E0F-6E5F-401C-9980-72D19ED17DAB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{51E03E0F-6E5F-401C-9980-72D19ED17DAB}.Release|Any CPU.Build.0 = Release|Any CPU
+		{856D7163-C24D-4013-B31A-419BD87E040C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{856D7163-C24D-4013-B31A-419BD87E040C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{856D7163-C24D-4013-B31A-419BD87E040C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{856D7163-C24D-4013-B31A-419BD87E040C}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
